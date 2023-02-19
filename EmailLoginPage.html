@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            position: relative;
+            top: 180px;
+            left:40%;
+        }
+        input{
+            width: 70%;
+            height: 25px;
+            box-shadow: 2px 2px 5px black;
+        }
+        #user{
+            margin-top: 50px;
+            margin-left: 40px;
+        }
+        #email,#pass{
+            margin-top: 10px;
+            margin-left: 40px;
+        }
+        #sub{
+            width: 60%;
+            margin-top: 25px;
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <form action="WelcomePage.html" target="_blank">
+    <div id="container">
+        <input placeholder="User name" type="text" id="user" required ><sup style="color: red;">*</sup>
+        <input placeholder=" Enter Email Id" type="email" id="email" required> <sup style="color: red;">*</sup>
+        <input placeholder="Password" type="password" id="pass" required  ><sup style="color: red;">*</sup>
+        <input type="submit" value="login" id="sub">
+    </div>
+</form>
+</body>
+</html>
